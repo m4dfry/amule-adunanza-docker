@@ -60,8 +60,8 @@ m4dfry/amule-adunanza
 ### Integration with SystemD - Unit file
 
 If your system uses systemd, you can save the following in a .service file and enable to run at boot.
-This example starts the daemon after rpcbind (NFS share).
-Path are just an example, based on a LibreElec installation, you have to replace the path with your own folders
+This unit starts the daemon after rpcbind (since the daemon uses a NFS share).
+Paths are just examples based on a LibreElec installation, you have to replace them with your own folders
 
 ```
 [Unit]
