@@ -76,8 +76,8 @@ ExecStart=/storage/.kodi/addons/service.system.docker/bin/docker run \
 --name=%p \
 --net=host \                                       ->  necessary for port forwarding from your router to the host that runs docker
 --volume "/storage/NAS/Amule/.aMule:/config" \     ->  substitute with your config folder 
---volume "/storage/NAS/Amule:/finished" \          ->  substitute with your config folder
---volume "/storage/NAS/Amule/Temp:/incomplete" \   ->  substitute with your config folder
+--volume "/storage/NAS/Amule:/finished" \          ->  substitute with your finished folder
+--volume "/storage/NAS/Amule/Temp:/incomplete" \   ->  substitute with your incomplete folder
 m4dfry/amule-adunanza
 
 ExecStop=/storage/.kodi/addons/service.system.docker/bin/docker stop %p
