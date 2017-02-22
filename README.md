@@ -36,13 +36,13 @@ While finished and config are self explanatory, a couple of words are needed for
 When the program runs, it checks the presence of amule.conf and adunanza.conf.
 If they're not present, the program copy the default version of these two files from the config folder inside the docker.
 Then being a first run, it creates all the .met and .dat file for credits, nodes, etc.
+Else, if the program find an amule.conf and adunanza.conf, it tries to use them, also reusing present .met and .dat files, so that credits, cache and kad nodes are preserved.
 
-These default file are the default configuration for amule 2.3.1 and the default adunanza.conf, with the following fixes recommended by Adunanza Forum
+The default file are the default configuration for amule 2.3.1 and the default adunanza.conf, with the following fixes recommended by Adunanza Forum
  - https://forum.adunanza.net/t/fix-temporaneo-per-server-met-e-nodes-dat-su-amule-adunanza-mac-e-linux/8589
  - https://forum.adunanza.net/t/fix-temporaneo-update-adunanza-net-per-amule-adunanza-linux-mac-adu-remote-conf-ha-risposto-404-errore-6/9335
-Stardard ports are used (4662,4672), Kad enabled, uPnP disabled, EC password set to amule
 
-Else, if the program find an amule.conf and adunanza.conf, it tries to use them, also reusing present .met and .dat files, so that credits, cache and kad nodes are preserved.
+Stardard ports are used (4662,4672), Kad enabled, uPnP disabled, EC password set to amule
 
 ### Command line
 
