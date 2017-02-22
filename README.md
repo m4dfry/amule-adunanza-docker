@@ -20,10 +20,10 @@
 ## A complete aMule server for Fastweb users
 
 Complete and stable aMule AdunanzA daemon installation
-* - Running on Debian:wheezy-slim*
-* - aMule version 2.3.1*
-* - No webserver included at this moment (Webserver tends to crash a lot)*
-* - If there are users interested, it can be a next step to include the webserver with a more stable skin.*
+ - *Running on Debian:wheezy-slim*
+ - *aMule version 2.3.1*
+ - *No webserver included at this moment (Webserver tends to crash a lot)*
+ - *If there are users interested, it can be a next step to include the webserver with a more stable skin.*
 
 ### General instructions
 
