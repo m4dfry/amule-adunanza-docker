@@ -50,7 +50,7 @@ Container can be run using
 
 ```
 docker run \
---net=host \ 
+--net=host \
 --volume "<your config folder>:/config" \
 --volume "<where to put your finished files>:/finished" \
 --volume "<where to keep your incomplete files>:/incomplete" \
